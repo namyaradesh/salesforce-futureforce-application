@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the Light and Sound Memory Game! Repeat the pattern back to win the game!
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img id = "img1" src="https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/download.png?v=1650520258489" alt="Cool pattern 1" class = "hide">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img id = "img2" src="https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/Capture.PNG?v=1650563729089" alt = "Cool pattern 2">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img id = "img3" src="https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/Capture.PNG?v=1650564126967" alt = "Cool pattern 3">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img id = "img4" src="https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/Capture.PNG?v=1650564425570" alt = "Cool pattern 4">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img id = "img5" src = "https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/Capture.PNG?v=1650564678552" alt = "Cool pattern 5">
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img id = "img6" src = "https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/Capture.PNG?v=1650564801140" alt = "Cool pattern 6">
+      </button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">
+        <img id = "img7" src = "https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/Capture.PNG?v=1650564961657" alt = "Cool pattern 7">
+      </button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">
+        <img id = "img8" src = "https://cdn.glitch.global/05274479-a275-43db-ab74-c6c9943d4aa1/800px_COLOURBOX32716126.jpg?v=1650564035947" alt = "Cool pattern 8">
+      </button>
+    </div>
+  </body>
+</html>
